@@ -1,0 +1,101 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment files
+.env
+.env.local
+
+# Binario del proyecto
+/simulacion
+
+# Archivos de depuración
+*.log
+
+# Archivos de configuración local
+config.local.*
+
+# Archivos de sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de respaldo
+*~
+*.bak
+*.swp
+*~
+
+# Directorio de módulos de Go
+**/__debug_bin
+
+# Archivos generados por Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Directorio de dependencias
+/vendor/
+
+# Archivos de entorno
+.env
+.env.local
+
+# Archivos de configuración local
+*.local
+
+# Archivos de JetBrains
+.idea/
+*.iml
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos de GoLand
+.idea/
+*.iml
+
+# Archivos de depuración
+debug/
+
+# Archivos de cobertura de pruebas
+coverage.txt
+profile.out
+
+# Archivos de datos de prueba
+testdata/
+
+# Archivos de documentación generados
+doc/
+
+# Archivos de configuración de Go
+go.work
+
+# Archivos de configuración de módulos
+go.work.sum
