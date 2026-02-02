@@ -21,14 +21,10 @@ Una simulación concurrente donde Neo navega por un mundo en cuadrícula, esquiv
 
 1. Clona el repositorio:
    ```bash
-   git clone <url-del-repositorio>
-   cd awesomeProject
+   git clone https://github.com/MarlioCharryECI/MatrixThreads.git
+   cd MatrixThreads
    ```
 
-2. Construye el proyecto:
-   ```bash
-   go build -o simulacion
-   ```
 ## 🔄 Lógica de Concurrencia
 
 El juego utiliza goroutines para manejar el movimiento concurrente de Neo y los agentes. Aquí está cómo funciona:
